@@ -1,0 +1,6 @@
+>git init                                        #to initialize the local repository....
+>git add filename.extension                      #to stage the file or to make it ready to push to remote repo or github ac.
+( >git add .                                     #to add all the file available in the local repo. )
+>git commit -a -m "commit message"               #basically saving the file finally before pushing.
+>git remote add PyNotes link                   ### Usually the remote name is "origin", but we used remote name as "PyNotes". "link" means the github repo link.
+>git push origin master 
