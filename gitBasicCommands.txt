@@ -1,3 +1,7 @@
+git basic commands link : https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+
 ###### after just setting up git on your local machine, to tell git who you are...
 >git config --global user.email "writd97@gmail.com"
 >git config --global user.name "WRD397"
@@ -13,7 +17,7 @@
 >git remote add origin link                    ### Usually the remote name is "origin" by convention, but we can use whtever we want. "link" means the github repo link.
 >git push origin master                          #to finally push the file to the ac. Here master means the name of the brnch to which we are pushing.
 
-##write these commands from line 9 to line 14 in order as mentioned here.
+##write these commands from line 13 to line 18 in order as mentioned here.
 
 ####### if you change anything in the github repo online...then you need to sync that with the local machine ie. local repo also...otherwise pushing of any file will be failed. so to sync we use 'pull' command in git.
 
