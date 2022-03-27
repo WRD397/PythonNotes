@@ -1,6 +1,20 @@
+###### after just setting up git on your local machine, to tell git who you are...
+>git config --global user.email "writd97@gmail.com"
+>git config --global user.name "WRD397"
+
+#ie. the email id and username of your github account.
+
+
+
 >git init                                        #to initialize the local repository....
 >git add filename.extension                      #to stage the file or to make it ready to push to remote repo or github ac.
 ( >git add .                                     #to add all the file available in the local repo. )
 >git commit -a -m "commit message"               #basically saving the file finally before pushing.
->git remote add PyNotes link                   ### Usually the remote name is "origin", but we used remote name as "PyNotes". "link" means the github repo link.
->git push origin master 
+>git remote add origin link                    ### Usually the remote name is "origin" by convention, but we can use whtever we want. "link" means the github repo link.
+>git push origin master                          #to finally push the file to the ac. Here master means the name of the brnch to which we are pushing.
+
+##write these commands from line 9 to line 14 in order as mentioned here.
+
+####### if you change anything in the github repo online...then you need to sync that with the local machine ie. local repo also...otherwise pushing of any file will be failed. so to sync we use 'pull' command in git.
+
+>git pull --rebase origin master                 #again, origin is the remote name and master is the branch. Thus the online github repo and the local repo in local                                                       machine are in sync with ech other...Now we can easily push any file.
