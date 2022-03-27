@@ -1,2 +1,2 @@
-# PythonNotes
-Necessary notes from Python CLass.
+# Tutorials
+tutoprials about fundamentals...
